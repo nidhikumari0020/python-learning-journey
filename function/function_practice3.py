@@ -45,6 +45,20 @@
 # print(find_largest(3,6,9))
 
 
+# list in single line
+
+# def list_number(list):
+#     for item in list:
+#         print(item, end=" ")
+# list_number([1,24,45,67])
+
+# convert usd to inr
+
+# def covert(usd_value):
+#     result = usd_value * 91
+#     return result
+# print(covert(3))
+
 # Count number of digits in a number
 
 # Reverse a number
@@ -55,3 +69,21 @@
 
 # Find product of digits
     
+# def calc_sum(n):
+#     if (n==0):
+#         return 0
+#     print(n)
+#     return calc_sum(n - 1) + n
+# print(calc_sum(5))
+
+def print_list(list, idx=0):
+    if(idx==len(list)):
+        return
+    
+    print(list[idx])
+    print_list(list,idx+1)
+
+fruit = ["mango","orange","apple"]
+print_list(fruit)
+
+# print(print_list([1,2,3,4,5]))  
