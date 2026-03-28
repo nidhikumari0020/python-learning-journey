@@ -10,6 +10,7 @@ This repository contains my Python practice while learning programming.
 - Tuples
 - Dictionaries
 - Functions
+- Start OOPS
 
 ## Goal
 Become a backend-heavy full stack developer.
