@@ -15,4 +15,8 @@ This repository contains my Python practice while learning programming.
 ## Goal
 Become a backend-heavy full stack developer.
 
-More projects coming soon 🚀
+PROJECT -
+Number Guess
+Bank Management System
+Student Library System
+
